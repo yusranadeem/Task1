@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form:</title>
+    <style>
+        form
+        {
+            
+            margin: 29%;
+            background-color: rgb(96, 157, 93);
+            padding: 1.2rem;
+            padding-top: 0.5rem;
+            margin-top: 1rem;
+        }
+        label{
+            font-size: 1.2rem;
+        }
+        input, select, button
+        {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <h1 > Feedback Form</h1>
+        <label for="fname"> First Name:</label>
+        <input id="fname" type="text" placeholder="Enter name here" >
+        <br>
+        <label for="sname"> Second Name:</label>
+        <input type="text" id="sname" placeholder="Enter surname here">
+        <br>
+        <label for="gender"> Male</label>
+        <input  id="gender" type="radio">
+        <label for="Gender"> Female</label>
+        <input  id="Gender" type="radio">
+        <br>
+        <label for="email"> Email: </label>
+        <input id="email" type="email" placeholder="E-mail Address">
+        <br>
+        <label for="comm"> Comment:</label>
+        <input id="comm" type="text" >
+        <br>
+        <select name="games" id="games">
+            <option value="sports">Cricket</option>
+            <option value="sports">Badminton</option>
+            <option value="sports">Hockey</option>
+            <option value="sports">Tennis</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <button type="reset">Reset</button>
+
+        
+    </form>
+</body>
+</html>
